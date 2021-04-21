@@ -33,4 +33,11 @@ Over the years, there have been several different text encoding formats, but the
 #### Base64 encoding
 This is probably the most common encoding mechanism I see in web pages these days. It takes the vast array of different characters and converts them into the set of letters a through z (both capital and lowercase), the numbers 0 through 9, the `+` symbol, and the `/` symbol. Additionally, the `=` is used to make sure the length of the resulting string is divisible by 4.
 
-This is different from character encoding because base64 encoding takes three characters at a time, but writes them out as four characters.
+This is different from character encoding because base64 encoding takes three 1-byte characters at a time, but writes them out as four characters in order to reduce the character set to printable characters regardless of the original characters used. As a result, while any given string of base64 may decode to a number of different original texts _out of context_, within the context of an entire base64 text, a group of characters will *always* decode to the same original text.
+
+Examples:
+* `aHR0cDovL3d3dy5nb29nbGUuY29tCiAgIGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20KICAgaHR0cDovL2dvb2dsZS5jb20KICAgaHR0cHM6Ly9nb29nbGUuY29t`
+* `aHR0cDovL3d3dy5nb29nbGUuY29tCmh0dHBzOi8vd3d3Lmdvb2dsZS5jb20KaHR0cDovL2dvb2dsZS5jb20KaHR0cHM6Ly9nb29nbGUuY29t`
+* `aHR0cDovL3d3dy5nb29nbGUuY29tCgpodHRwczovL3d3dy5nb29nbGUuY29tCgpodHRwOi8vZ29vZ2xlLmNvbQoKaHR0cHM6Ly9nb29nbGUuY29t`
+
+The above examples have some similar characteristics _within_ themselves that, over time, will be second nature when looking at other strings. For example, we see `aHR0` showing up several times in each string. Based on experience, I _know_ that `aHR0` converts to `htt` and, most specifically, `aHR0cDov` converts to `http:/`. 
