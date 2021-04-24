@@ -10,13 +10,13 @@ Additionally, an unspoken part of my job has always been mentoring and teaching 
 
 ## Topics
 * Terminology
- * [Encoding, Compression, and Obfuscation](Encoding.md)
- * [Encryption](Encrypting.md)
+  * [Encoding, Compression, and Obfuscation](Encoding.md)
+  * [Encryption](Encrypting.md)
 * Programming Language functions
- * [PHP](Php.md)
- * [JavaScript](JavaScript.md)
- * [VBScript / ASP](VBScript.md)
- * [Perl](Perl.md)
+  * [PHP](Php.md)
+  * [JavaScript](JavaScript.md)
+  * [VBScript / ASP](VBScript.md)
+  * [Perl](Perl.md)
 
 #### Note
 While malware comes in every programming language available, the examples that I will be focusing on are the types that tend be found on websites and, as such, will mostly be in the following languages:
