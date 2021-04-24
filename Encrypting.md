@@ -2,6 +2,7 @@
 Encryption goes one step further than obfuscation or encoding, making the code impossible to execute without knowing the 'secret' used to make the encrypted text. Whether the secret is a password or another file or some system characteristic, these files are the hardest to analyze. _For the most part_, these are beyond the scope of what we will be looking at because cracking the encryption is non-trivial.
 
 One of the more common password encrypted files that I've seen contains a `decode` function that looks like this:
+~~~~~~
     function decode($String){
           $String = base64_decode($String);
           $Salt=$_COOKIE["dolly_password"];
@@ -16,6 +17,7 @@ One of the more common password encrypted files that I've seen contains a `decod
 
           return $String^$Gamma;
     }
+~~~~~~
 
 This function takes a string that has been encoded using the base64 encoding mechanism as an argument.
 It then runs through a series of steps to get the decrypted text:
@@ -46,9 +48,11 @@ The XOR (exclusive OR) operation compares the binary representation of the argum
     _ ^ 0 ==> o
 
 `_` in binary is `01011111`. The number `0` converted into binary is actually `00110000`. When we XOR these together we get:
+~~~~~~
     01011111
     00110000
     =======
     01101111
+~~~~~~
 
 This is the binary representation of the lowercase letter `o`.
