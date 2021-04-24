@@ -10,8 +10,8 @@ Additionally, an unspoken part of my job has always been mentoring and teaching 
 
 ## Topics
 * Terminology
- * [Encoding and Compression](Encoding.md)
- * [Obfuscation and Encryption](Encrypting.md)
+ * [Encoding, Compression, and Obfuscation](Encoding.md)
+ * [Encryption](Encrypting.md)
 * Programming Language functions
  * [PHP](Php.md)
  * [JavaScript](JavaScript.md)
