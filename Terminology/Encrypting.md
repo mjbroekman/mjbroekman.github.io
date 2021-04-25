@@ -41,7 +41,9 @@ After doing that, it loops through the following operations until Gamma is no lo
 
 Once the decode function has built this Gamma string, it performs a bitwise operation known as XOR [^1] with the decoded original string and returns that value.
 
-The code then continues from there. If the cookie is set to the incorrect value, the resulting string won't be valid for the next operation in the code and you will get an error.
+The code then continues from there. If the password is set to the incorrect value, the resulting string won't be valid for the next operation in the code and you will get an error.
+
+If the password _is_ correct, then the payload is executed and the results displayed to the user.
 
 ------
 [^1]:
