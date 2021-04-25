@@ -1,0 +1,9 @@
+---
+---
+
+@import "jekyll-theme-slate";
+.active {
+  background-color: DarkGray;
+  font-weight: bold;
+  text-decoration: underline;
+}
