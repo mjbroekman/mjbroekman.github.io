@@ -13,7 +13,11 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          {% include simple-menu.html %}
+          <ul>
+            <li><a href="/index.md">Main</a></li>
+            <li {% if page.url contains '/Terminology' %}class="active"{% endif %}><a href="/Terminology">Terminology</a></li>
+            <li {% if page.url contains '/Resources' %}class="active"{% endif %}><a href="/Resources.md">Resources</a></li>
+          </ul>
         </header>
     </div>
 
