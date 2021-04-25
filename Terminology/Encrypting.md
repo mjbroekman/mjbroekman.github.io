@@ -43,4 +43,4 @@ Once the decode function has built this Gamma string, it performs a bitwise oper
 
 The code then continues from there. If the cookie is set to the incorrect value, the resulting string won't be valid for the next operation in the code and you will get an error.
 
-[^1]: {% include_relative XOR.html %}
+[^1]: {% include_relative XOR.md %}
