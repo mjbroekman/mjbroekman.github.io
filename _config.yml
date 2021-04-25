@@ -2,7 +2,7 @@ title: A Moment on Malware
 author:
   name: Maarten Broekman
   email: maarten@broekman.us
-theme: jekyll-theme-slate
+theme: jekyll-theme-hacker
 markdown: kramdown
 social_links:
   linkedin: maartenjbroekman
