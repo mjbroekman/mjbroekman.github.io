@@ -1,5 +1,9 @@
 # Resources
+{:.no_toc}
 This is a list of commonly used tools and resources for helping a website owner or malware analyst get more information about a given file or sample of code.
+
+* TOC
+{:toc}
 
 ## Multipurpose Tools
 * Beautify Tools - [website](https://beautifytools.com/)

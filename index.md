@@ -1,7 +1,12 @@
 # Welcome
+{:.no_toc}
+
 This site is a repository of background information for my 'Moment on Malware' series of videos. This is a new endeavor, however, and still very much under construction.
 
 While the videos will be geared towards malware analysts, the background information presented here is useful for anyone that has ever looked at the code behind a website and thought "What the heck is that doing?"
+
+* TOC
+{:toc}
 
 ## About Me
 My name is Maarten Broekman. I've been working as a system administrator and systems engineer for over 25 years, primarily in the shared web-hosting space. One of the main concerns for web-hosting providers is being able to serve up their customers websites as quickly and efficiently as possible. As a result, anything that detracts from performance needs to be examined closely and this is where my interest in malware and code analysis sprang from. For the last decade, finding, decoding, and removing malware (and automating that process) has been a formal part of my job.
