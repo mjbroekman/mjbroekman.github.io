@@ -35,14 +35,14 @@ It then runs through a series of steps to get the decrypted text:
 
 After doing that, it loops through the following operations until Gamma is no longer shorter than the decoded string:
 1. Takes the value of Gamma and concatenates the predetermined string and the password to the end.
-2. Generates the [SHA1](https://en.wikipedia.org/wiki/SHA-1) hash of that resulting string, resulting in a 40 character string.
+2. Generates the [SHA1](https://en.wikipedia.org/wiki/SHA-1) hash of that new string, resulting in a 40 character string.
 3. Converts the 40 character hash into a 20 character binary string (In PHP, the pack function, as used in this example, expects the input to be a hexadecimal string which it then turns into a binary string using every two characters as the value of the packed character).
 4. Appends the first 8 characters from that string to the end of Gamma.
 
 Once the decode function has built this Gamma string, it performs a bitwise operation known as XOR [^1] with the decoded original string and returns that value.
 
 The code then continues from there. If the cookie is set to the incorrect value, the resulting string won't be valid for the next operation in the code and you will get an error.
-
+------
 [^1]:
     The XOR (exclusive OR) operation compares the binary representation of the arguments and returns a 0 or 1 depending on whether each bit in the string is the same (in which case you get a 0 returned) or different (in which case you get a 1).
     Example
