@@ -12,6 +12,7 @@ Additionally, an unspoken part of my job has always been mentoring and teaching 
 * Terminology
   * [Encoding, Compression, and Obfuscation](Encoding.md)
   * [Encryption](Encrypting.md)
+* [Resources](Resources.md) - Useful tools for the curious
 * Programming Language functions
   * [PHP](Php.md)
   * [JavaScript](JavaScript.md)
