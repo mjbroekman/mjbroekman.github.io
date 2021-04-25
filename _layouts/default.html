@@ -12,12 +12,9 @@
   <body>
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
+      <h2>{{ site.title | default: site.github.repository_name }}</h2>
         <header class="inner">
-          <ul>
-            <li><a href="/index.md">Main</a></li>
-            <li {% if page.url contains '/Terminology' %}class="active"{% endif %}><a href="/Terminology">Terminology</a></li>
-            <li {% if page.url contains '/Resources' %}class="active"{% endif %}><a href="/Resources.md">Resources</a></li>
-          </ul>
+          {% include _includes/simple-menu.html %}
         </header>
     </div>
 
@@ -35,6 +32,7 @@
         <p class="copyright">{{ site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
         <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+        {% include _includes/social.html %}
       </footer>
     </div>
 
