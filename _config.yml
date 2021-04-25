@@ -4,9 +4,9 @@ author:
   email: maarten@broekman.us
 theme: jekyll-theme-slate
 markdown: kramdown
-  social_links:
-    linkedin: maartenjbroekman
-    github:  mjbroekman
-    youtube: MaartenBroekman
-    facebook: maarten.j.broekman
-    twitter: mjbroekman
+social_links:
+  linkedin: maartenjbroekman
+  github:  mjbroekman
+  youtube: MaartenBroekman
+  facebook: maarten.j.broekman
+  twitter: mjbroekman
