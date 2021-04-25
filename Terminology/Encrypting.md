@@ -42,6 +42,7 @@ After doing that, it loops through the following operations until Gamma is no lo
 Once the decode function has built this Gamma string, it performs a bitwise operation known as XOR [^1] with the decoded original string and returns that value.
 
 The code then continues from there. If the cookie is set to the incorrect value, the resulting string won't be valid for the next operation in the code and you will get an error.
+
 ------
 [^1]:
     The XOR (exclusive OR) operation compares the binary representation of the arguments and returns a 0 or 1 depending on whether each bit in the string is the same (in which case you get a 0 returned) or different (in which case you get a 1).
