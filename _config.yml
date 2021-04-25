@@ -11,3 +11,7 @@ social_links:
   facebook: maarten.j.broekman
   twitter: mjbroekman
 show_downloads: false
+github.is_project_page: false
+lang: en
+github.owner_name: mjbroekman
+github.repository_name: mjbroekman.github.io

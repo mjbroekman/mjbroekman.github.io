@@ -6,7 +6,7 @@ While the videos will be geared towards malware analysts, the background informa
 ## About Me
 My name is Maarten Broekman. I've been working as a system administrator and systems engineer for over 25 years, primarily in the shared web-hosting space. One of the main concerns for web-hosting providers is being able to serve up their customers websites as quickly and efficiently as possible. As a result, anything that detracts from performance needs to be examined closely and this is where my interest in malware and code analysis sprang from. For the last decade, finding, decoding, and removing malware (and automating that process) has been a formal part of my job.
 
-Additionally, an unspoken part of my job has always been mentoring and teaching the skills I have. This website, and the videos I am producing, is the next step in bringing this part of my passion to a wider audience.
+An unspoken part of my job has always been mentoring and sharing the skills I have with others. This website, and the videos I am producing, is the next step in bringing this part of my passion to a wider audience.
 
 ## Topics
 * Terminology
@@ -32,3 +32,11 @@ Interesting samples in other languages will be shown, but the majority of the di
 Obviously, the people I've met over the years and, especially, the ones that mentored (and continue to mentor) me deserve a lot of thanks.
 
 The inspiration for this site is, however, John Hammond ( [GitHub](https://github.com/JohnHammond) [YouTube](https://youtube.com/johnhammond010). I was explaining some obfuscated VBScript to some coworkers and, in the process, searched for VBScript deobfuscation tools and found John's [video on the topic](https://www.youtube.com/watch?v=3Q9-X_NRlJc). So, if you're looking for an engaging, knowledgeable guy, check him out along with the other creators at [securitycreators.video](https://securitycreators.video/).
+
+#### Where to find me
+The primary places you can find me are:
+* [LinkedIn](https://linkedin.com/in/maartenjbroekman/)
+* [GitHub](https://github.com/mjbroekman/)
+* [YouTube](https://www.youtube.com/c/MaartenBroekman)
+
+For other, less used methods, see my [Social] links
