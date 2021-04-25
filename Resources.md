@@ -46,3 +46,5 @@ These are publicly accessible virus scanners that can take a File, URL, or hash 
   * **THE** resource for understanding how PHP functions are used. If you can't find a function name here, it's probably a custom function.
 * Microsoft's VBA reference [website](https://docs.microsoft.com/en-us/office/vba/api/overview/language-reference)
   * **THE** resource for understanding Visual Basic and VBScript
+* SANS Institute [website](https://isc.sans.edu/)
+  * A good collection of Internet and security information and resources.
