@@ -2,8 +2,13 @@
 ---
 
 @import "jekyll-theme-slate";
+h2 {
+  color: green;
+  font-family: monospace;
+  text-decoration: underline;
+}
 .active {
-  background-color: DarkGray;
+  background-color: Grey;
   font-weight: bold;
   text-decoration: underline;
 }
