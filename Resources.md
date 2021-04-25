@@ -24,6 +24,7 @@ This is a list of commonly used tools and resources for helping a website owner 
 ## Beautification tools
 Code reformatting for readability
 * JavaScript - (https://beautifier.io/)
+* PHP - (https://beautifytools.com/php-beautifier.php)
 
 ## Public Scanners
 These are publicly accessible virus scanners that can take a File, URL, or hash (MD5 or SHA checksum) and return analysis results on them. Results will vary and may need additional interpretation in order to reach definitive conclusions.
@@ -32,6 +33,12 @@ These are publicly accessible virus scanners that can take a File, URL, or hash 
 
 ## Other Tools
 * Paiza.io - (https://paiza.io/en/projects/new)
-  * Let's you put in code, modify it, and run it to see what it does.
+  * Let's you enter code, modify it, and run it to see what it does.
 * Google (or Bing or your favorite search engine)
   * Paste in part of the code as a search string and see what comes up...don't be discouraged if your first search doesn't turn up anything.
+* W3Schools (https://www.w3schools.com/)
+  * Great resource for programming languages of all types. Includes ability to 'try it out' for functions.
+* PHP.net (https://www.php.net/)
+  * **THE** resource for understanding how PHP functions are used. If you can't find a function name here, it's probably a custom function.
+* Microsoft's VBA reference (https://docs.microsoft.com/en-us/office/vba/api/overview/language-reference)
+  * **THE** resource for understanding Visual Basic (and VBScript)
