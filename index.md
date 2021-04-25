@@ -25,6 +25,8 @@ An unspoken part of my job has always been mentoring and sharing the skills I ha
   * [Perl](Languages/Perl.md)
 
 #### Note
+{:.no_toc}
+
 While malware comes in every programming language available, the examples that I will be focusing on are the types that tend be found on websites and, as such, will mostly be in the following languages:
 * [PHP](Languages/Php.md)
 * [JavaScript](Languages/JavaScript.md)
@@ -33,15 +35,15 @@ While malware comes in every programming language available, the examples that I
 
 Interesting samples in other languages will be shown, but the majority of the discussion will be focused on the languages that are behind some of the most popular website technologies.
 
-#### Acknowledgements
+## Acknowledgements
 Obviously, the people I've met over the years and, especially, the ones that mentored (and continue to mentor) me deserve a lot of thanks.
 
 The inspiration for this site is, however, John Hammond ( [GitHub](https://github.com/JohnHammond) [YouTube](https://youtube.com/johnhammond010). I was explaining some obfuscated VBScript to some coworkers and, in the process, searched for VBScript deobfuscation tools and found John's [video on the topic](https://www.youtube.com/watch?v=3Q9-X_NRlJc). So, if you're looking for an engaging, knowledgeable guy, check him out along with the other creators at [securitycreators.video](https://securitycreators.video/).
 
-#### Where to find me
+## Where to find me
 The primary places you can find me are:
 * [LinkedIn](https://linkedin.com/in/maartenjbroekman/)
 * [GitHub](https://github.com/mjbroekman/)
 * [YouTube](https://www.youtube.com/c/MaartenBroekman)
 
-For other, less used methods, see my [Social] links
+For other, less used methods, see my [Social](Social.md) links
