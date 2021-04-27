@@ -21,3 +21,7 @@ The following functions are commonly used throughout malware in order to hide, r
 ### file / file_get_contents / file_put_contents
 
 ### fopen / fwrite / fputs / fclose
+
+### goto
+
+### hexbin bindec dechex hexdec
