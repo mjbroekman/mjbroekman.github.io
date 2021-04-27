@@ -36,6 +36,8 @@ These are publicly accessible virus scanners that can take a File, URL, or hash 
 * HybridAnalysis - [website](https://www.hybrid-analysis.com/)
 
 ## Other Tools
+* ClamAV - [website](https://clamav.net/)
+  * "Virus" scanner. Highly configurable to search for expressions / hashes
 * Paiza.io - [website](https://paiza.io/en/projects/new)
   * Let's you enter code, modify it, and run it to see what it does.
 * Google (or Bing or your favorite search engine)
