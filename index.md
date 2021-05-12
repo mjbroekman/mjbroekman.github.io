@@ -17,23 +17,19 @@ An unspoken part of my job has always been mentoring and sharing the skills I ha
 * Terminology
   * [Encoding, Compression, and Obfuscation](Terminology/Encoding.md)
   * [Encryption](Terminology/Encrypting.md)
+  * [Steganography](Terminology/Steganography.md)
 * [Resources](Resources.md) - Useful tools for the curious
 * Programming Language functions
   * [PHP](Languages/Php.md)
   * [JavaScript](Languages/JavaScript.md)
   * [VBScript / ASP](Languages/VBScript.md)
   * [Perl](Languages/Perl.md)
+* [Videos](Videos.md) - Links and descriptions of videos I am producing
 
 #### Note
 {:.no_toc}
 
-While malware comes in every programming language available, the examples that I will be focusing on are the types that tend be found on websites and, as such, will mostly be in the following languages:
-* [PHP](Languages/Php.md)
-* [JavaScript](Languages/JavaScript.md)
-* [VBScript / ASP](Languages/VBScript.md)
-* [Perl](Languages/Perl.md)
-
-Interesting samples in other languages will be shown, but the majority of the discussion will be focused on the languages that are behind some of the most popular website technologies.
+While malware comes in every programming language available, the examples that I will be focusing on are the types that tend be found on websites and, as such, will mostly be in the languages listed above. When an interesting sample is in another language, however, we will still attempt to break it apart and look at what it is doing.
 
 ## Acknowledgements
 Obviously, the people I've met over the years and, especially, the ones that mentored (and continue to mentor) me deserve a lot of thanks.
