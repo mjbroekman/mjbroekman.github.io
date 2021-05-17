@@ -133,4 +133,4 @@ Some of the more common commercial obfuscators / encoders are:
 Additional obfuscators / encoders that I've seen commonly used by _malware_ include:
 * FOPO (Free Online Php Obfuscator) and it's many variants
 * AROHA PHP Encoder and it's variants
-* Adilbo's Php Encoder and Obfuscator
+* PHPEncode v1.0 (adilbo's PHP Encoder, PHPEncode by zeura)
