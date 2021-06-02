@@ -15,6 +15,8 @@ Often, the `GIF89a` header is placed at the top of the file, causing many progra
 
 In these cases, opening the file in an editor will reveal the code easily, but from the browser side it is invisible.
 
+In other cases, the data is stored within the bits that make up the image. Realpython.com has a great example of how that is done and how to extract it [here](https://realpython.com/python-bitwise-operators/#least-significant-bit-steganography).
+
 ### Whitespace Code
 The most unique steganographic technique that I've encountered is whitespace-encoding[^2] [^3]. I came across this in 2014 and it took me a while to fully understand what was going on. In short, the payload (the version I came across was in PHP, but there is no reason that it can't be performed in other languages) was encoded as a string of spaces and tabs that were then turned into 1s and 0s and then, in groups of 8 digits, converted to their ASCII character and executed.
 
