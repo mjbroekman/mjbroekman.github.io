@@ -16,3 +16,5 @@
   * Opening up, decoding, and explaining an IndoTrojan ransomware script
 * [I wrote a decoder](https://youtu.be/AAnQkp48CJg)
   * This is the decoder used for 'cracking' Zeura, Sendy, and other PHPEncode obfuscated files.
+* [Bitwise Operations Examples](https://www.youtube.com/watch?v=LB7kxbnvHVY)
+  * I'll walk you through what logical (or bitwise) operators do, show how this transforms characters on a bit-by-bit basis, and then provide two real-life examples of how these are used to hide malicious code in seemingly random characters
