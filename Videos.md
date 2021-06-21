@@ -18,3 +18,5 @@
   * This is the decoder used for 'cracking' Zeura, Sendy, and other PHPEncode obfuscated files.
 * [Bitwise Operations Examples](https://www.youtube.com/watch?v=LB7kxbnvHVY)
   * I'll walk you through what logical (or bitwise) operators do, show how this transforms characters on a bit-by-bit basis, and then provide two real-life examples of how these are used to hide malicious code in seemingly random characters
+* [Malicious Whitespace](https://www.youtube.com/watch?v=1KcI3qTC39w)
+  * I walk the viewer through the functionality of the old CoreLibrariesHandler malware and show a variant that's significantly harder to detect and equally powerful.

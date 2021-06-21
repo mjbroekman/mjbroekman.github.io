@@ -18,7 +18,7 @@ In these cases, opening the file in an editor will reveal the code easily, but f
 In other cases, the data is stored within the bits that make up the image. Realpython.com has a great example of how that is done and how to extract it [here](https://realpython.com/python-bitwise-operators/#least-significant-bit-steganography).
 
 ### Whitespace Code
-The most unique steganographic technique that I've encountered is whitespace-encoding[^2] [^3]. I came across this in 2014 and it took me a while to fully understand what was going on. In short, the payload (the version I came across was in PHP, but there is no reason that it can't be performed in other languages) was encoded as a string of spaces and tabs that were then turned into 1s and 0s and then, in groups of 8 digits, converted to their ASCII character and executed.
+The most unique steganographic technique that I've encountered is whitespace-encoding[^2] [^3] [^4]. I came across this in 2014 and it took me a while to fully understand what was going on. In short, the payload (the version I came across was in PHP, but there is no reason that it can't be performed in other languages) was encoded as a string of spaces and tabs that were then turned into 1s and 0s and then, in groups of 8 digits, converted to their ASCII character and executed.
 
 The samples that have been examined in the linked articles are, however, very obviously out of place when the file is examined. The _implications_ of this technique, however, are frightening. All that is needed is a script that ignores **non-whitespace** in a normal file and converts the remaining whitespace to the appropriate executable code.
 
@@ -27,3 +27,4 @@ The samples that have been examined in the linked articles are, however, very ob
 [^1]: Wikipedia - [Steganography](https://en.wikipedia.org/wiki/Steganography)
 [^2]: Sucuri - [https://blog.sucuri.net/2011/05/oscommerce-malware-cannot-redeclare-corelibrarieshandler.html](https://blog.sucuri.net/2011/05/oscommerce-malware-cannot-redeclare-corelibrarieshandler.html)
 [^3]: VirusBulletin - [https://www.virusbulletin.com/blog/2011/06/malicious-php-script-hides-bad-stuff-inside-white-space/](https://www.virusbulletin.com/blog/2011/06/malicious-php-script-hides-bad-stuff-inside-white-space/)
+[^4]: Kaspersky - [https://securelist.com/dangerous-whitespaces/30648/](https://securelist.com/dangerous-whitespaces/30648/)
