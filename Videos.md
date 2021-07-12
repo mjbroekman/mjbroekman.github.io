@@ -20,3 +20,5 @@
   * I'll walk you through what logical (or bitwise) operators do, show how this transforms characters on a bit-by-bit basis, and then provide two real-life examples of how these are used to hide malicious code in seemingly random characters
 * [Malicious Whitespace](https://www.youtube.com/watch?v=1KcI3qTC39w)
   * I walk the viewer through the functionality of the old CoreLibrariesHandler malware and show a variant that's significantly harder to detect and equally powerful.
+* [(Not as) Sneaky as a Fox](https://www.youtube.com/watch?v=dwz1Nyw4laE)
+  * I step through a webshell dropper that caught my attention when it was unsuccessfully injected into a honeypot...twice. The dropper performs a few interesting functions, which I talk about, and then I briefly show the webshell it attempts to install and point out the particular indicators that allowed me to conclude this was malicious without fully decoding the payload.
