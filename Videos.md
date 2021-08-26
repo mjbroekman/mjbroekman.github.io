@@ -24,3 +24,5 @@
   * I step through a webshell dropper that caught my attention when it was unsuccessfully injected into a honeypot...twice. The dropper performs a few interesting functions, which I talk about, and then I briefly show the webshell it attempts to install and point out the particular indicators that allowed me to conclude this was malicious without fully decoding the payload.
 * [Finding the Fox](https://www.youtube.com/watch?v=4JeHgKa6vCk)
   * I walk viewers through the deconstruction of an anonymousF0x web shell, showing the complexities of debugging multi-byte files, highlighting the interesting features of the encoding and multiple layers of this particular web shell, and showing some of the functionality built into it.
+* [Base64 Basics](https://www.youtube.com/watch?v=rHbuK4wX8xo)
+  * I step through the process used to encode and decode strings in base64.
