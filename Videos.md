@@ -26,3 +26,5 @@
   * I walk viewers through the deconstruction of an anonymousF0x web shell, showing the complexities of debugging multi-byte files, highlighting the interesting features of the encoding and multiple layers of this particular web shell, and showing some of the functionality built into it.
 * [Base64 Basics](https://www.youtube.com/watch?v=rHbuK4wX8xo)
   * I step through the process used to encode and decode strings in base64.
+* [Adventures in PowerShell](https://www.youtube.com/watch?v=-AaMJx9Y7cU)
+  * I walk viewers through a multi-stage PowerShell dropper and the two PE32 executables that it contains
