@@ -5,6 +5,10 @@ This is a list of commonly used tools and resources for helping a website owner 
 * TOC
 {:toc}
 
+## My Resources
+* My ClamAV Signatures - [repo](https://github.com/mjbroekman/clamdb)
+* My Decoders - [repo](https://github.com/mjbroekman/decoders)
+
 ## Multipurpose Tools
 * Beautify Tools - [website](https://beautifytools.com/)
   * Formatting tools to make code easier to read, character converters (hex to ascii, etc), decoders, etc
