@@ -8,6 +8,7 @@
 [YouTube](https://www.youtube.com/channel/UCMj2ji-A08YlcOsVeX6-HVQ/)
 
 # Video List
+## Malware Deconstruction
 * [Finding Executable Code in GitHub JSON](https://youtu.be/XgEBOZUs0rg)
   * I found malicious code unexpectedly in the repository JSON data
 * [Extracting from GitHub JSON plus Zeura Decoding](https://youtu.be/x5QIXCq6pK4)
@@ -28,3 +29,7 @@
   * I step through the process used to encode and decode strings in base64.
 * [Adventures in PowerShell](https://www.youtube.com/watch?v=-AaMJx9Y7cU)
   * I walk viewers through a multi-stage PowerShell dropper and the two PE32 executables that it contains
+
+## Tutorials
+* [Creating Logical Signatures](https://www.youtube.com/watch?v=AWS2CehT1HU)
+  * Quick tutorial on making a logical signature to detect multiple Subject: headers in an email message
