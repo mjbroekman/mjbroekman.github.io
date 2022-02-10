@@ -29,7 +29,18 @@
   * I step through the process used to encode and decode strings in base64.
 * [Adventures in PowerShell](https://www.youtube.com/watch?v=-AaMJx9Y7cU)
   * I walk viewers through a multi-stage PowerShell dropper and the two PE32 executables that it contains
+* [Bad Design Decision? Or Bad Code?](https://www.youtube.com/watch?v=Yx-BNsak5o8)
+  * I walk viewers through an iframe injector that is encoded as RGB color codes.
+
+## Playlists
+* [What does THAT do?](https://www.youtube.com/watch?v=XgEBOZUs0rg&list=PL3wytv9o8buUlfTK9Y0Yv-OSxNqY9yxOG)
+  * This is the playlist of all videos in the 'What does THAT do?' series. This is the main series.
+* [ClamAV](https://www.youtube.com/watch?v=kBVlfkdjSJo&list=PL3wytv9o8buU9M-5gRWNZH-UQkU9cK2AT)
+  * This is a playlist of all ClamAV-specific videos
+* [Tools and Tips](https://www.youtube.com/watch?v=2aJ6jBG2UOc&list=PL3wytv9o8buVGja-VcOSqGrjQZkqB7uhd)
+  * This is a playlist of tips, tricks, and tools that can be used. These are not geared towards decoding a specific kind of malware, but rather processes.
 
 ## Tutorials
 * [Creating Logical Signatures](https://www.youtube.com/watch?v=AWS2CehT1HU)
   * Quick tutorial on making a logical signature to detect multiple Subject: headers in an email message
+
