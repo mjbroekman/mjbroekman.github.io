@@ -31,6 +31,8 @@
   * I walk viewers through a multi-stage PowerShell dropper and the two PE32 executables that it contains
 * [Bad Design Decision? Or Bad Code?](https://www.youtube.com/watch?v=Yx-BNsak5o8)
   * I walk viewers through an iframe injector that is encoded as RGB color codes.
+* [Bad Style(sheets) Will Ruin Your Site](https://www.youtube.com/watch?v=7o5I3KN6YBw)
+  * I step through an iframe injector that utilizes CSS stylesheet manipulation to deploy its payload.
 
 ## Playlists
 * [What does THAT do?](https://www.youtube.com/watch?v=XgEBOZUs0rg&list=PL3wytv9o8buUlfTK9Y0Yv-OSxNqY9yxOG)
