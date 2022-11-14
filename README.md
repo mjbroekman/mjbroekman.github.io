@@ -1,2 +1,2 @@
 # mjbroekman.github.io
-This repository is for the background information used in my series 'Moment on Malware'.
+This is my website, as it were. Easier to publish to than WordPress or a hosting provider, github.io is ideal for small sites.
