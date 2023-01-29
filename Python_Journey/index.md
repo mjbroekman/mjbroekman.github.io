@@ -20,10 +20,10 @@ Much of the code in my repositories is based on projects on FreeCodeCamp and oth
 * TOC
 {:toc}
 
-## Topics
+## Videos
 * [Videos](Videos.md)
-* Project Work
-  * My Code Repositories
-    * [My FreeCodeCamp Project Code](https://github.com/mjbroekman/python-fcc)
-    * [My FreeCodeCamp PyGame Project Code](https://github.com/mjbroekman/pygame-fcc)
-    * [PySweeper](https://github.com/mjbroekman/python-minesweeper) - A command-line implementation of the MineSweeper project on FreeCodeCamp
+
+## Project Repositories
+* [My FreeCodeCamp Project Code](https://github.com/mjbroekman/python-fcc)
+* [My FreeCodeCamp PyGame Project Code](https://github.com/mjbroekman/pygame-fcc)
+* [PySweeper](https://github.com/mjbroekman/python-minesweeper) - A command-line implementation of the MineSweeper project on FreeCodeCamp
