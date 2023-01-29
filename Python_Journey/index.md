@@ -5,7 +5,13 @@ Welcome to my Python journey. I'm in the process of "learning through doing" by 
 
 You'll find links to videos, discussions about projects, and similar things here...
 
+* TOC
+{:toc}
+
+## Overview
+
 Much of the code in my repositories is based on projects on FreeCodeCamp and other sites:
+
 * FreeCodeCamp
   * [25 Beginner Projects](https://www.freecodecamp.org/news/python-projects-for-beginners/)
   * [20 Beginner Projects](https://www.freecodecamp.org/news/20-beginner-python-projects/)
@@ -15,9 +21,6 @@ Much of the code in my repositories is based on projects on FreeCodeCamp and oth
 * Other Sites
   * [PythonTutorial.Net](https://www.pythontutorial.net/)
 * ... more will be added as I find them...
-
-* TOC
-{:toc}
 
 ## Videos
 * [Videos](Videos.md)
